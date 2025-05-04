@@ -1,4 +1,4 @@
-package org.esc.esc;
+package org.esc;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

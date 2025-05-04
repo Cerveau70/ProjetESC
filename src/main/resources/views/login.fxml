@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.esc.controller.LoginController">
+    <children>
+        <VBox alignment="CENTER" spacing="10" layoutX="100" layoutY="100">
+            <Label text="Connexion à la plateforme"/>
+            <TextField fx:id="usernameField" promptText="Nom d'utilisateur"/>
+            <PasswordField fx:id="passwordField" promptText="Mot de passe"/>
+            <Button text="Se connecter" onAction="#handleLogin"/>
+        </VBox>
+    </children>
+</AnchorPane>

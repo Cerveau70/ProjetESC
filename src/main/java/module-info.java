@@ -1,4 +1,4 @@
-module org.esc.esc {
+module org.esc{
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,7 @@ module org.esc.esc {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens org.esc.esc to javafx.fxml;
-    exports org.esc.esc;
+    exports org.esc;
+    exports org.esc.controller;
+    opens org.esc.controller to javafx.fxml;
 }

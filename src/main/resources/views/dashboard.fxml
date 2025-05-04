@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.esc.controller.DashboardController">
+    <top>
+        <ToolBar>
+            <Button text="Étudiants" onAction="#showEtudiants"/>
+            <Button text="Profs" onAction="#showProfs"/>
+            <Button text="Cours" onAction="#showCours"/>
+            <Button text="Déconnexion" onAction="#handleLogout"/>
+        </ToolBar>
+    </top>
+    <center>
+        <Label text="Bienvenue sur le tableau de bord"/>
+    </center>
+</BorderPane>
