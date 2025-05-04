@@ -1,6 +1,7 @@
 #Structure du projet
 
 school-management-app
+
 ├── src
 │   ├── main
 │   │   ├── java/
