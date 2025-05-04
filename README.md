@@ -1,8 +1,8 @@
 #Structure du projet
 
-school-management-app/
-├── src/
-│   ├── main/
+school-management-app
+├── src
+│   ├── main
 │   │   ├── java/
 │   │   │   ├── com.alloma.school/
 │   │   │   │   ├── Main.java
